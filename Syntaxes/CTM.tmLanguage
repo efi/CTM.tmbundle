@@ -49,8 +49,7 @@
   		<key>name</key><string>comment.line.number-sign</string>
   	</dict>
   	<dict>
-  		<key>begin</key><string>(?&lt;=&lt;)</string>
-  		<key>end</key><string>(?=&gt;)</string>
+  		<key>match</key><string>(?&lt;=&lt;)[^&gt;]+(?=&gt;)</string>
   		<key>name</key><string>markup.underline.link</string>
   	</dict>
   	<dict>
